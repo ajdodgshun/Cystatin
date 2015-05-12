@@ -22,6 +22,7 @@ shinyUI(fluidPage(
                 br(),
                 h2('Recommendation', align = "center"),
                 textOutput("recommendation"),
-                img(src = "RCH.png", height = 100, width = 100, align = "right")
+                img(src = "RCH.png", height = 100, width = 100, align = "right"),
+                a(href="https://github.com/ajdodgshun/Cystatin/blob/master/README.md", "Click here for help with this app")
         )
 ))
