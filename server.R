@@ -37,7 +37,7 @@ recommend <- reactive({
         } else if(recCKID >= 100 && recnewform < 100) {
                 rec <- "Disagreement between formulae, consider formal GFR if clinically appropriate"
         } else if(recCKID >= 100 && recnewform >= 100) {
-                rec <- "GFR is likely to be greater than 100mL/min/1.73m2"
+                rec <- "GFR is likely to be greater than 90mL/min/1.73m2"
         } else rec <- ""
         print(rec)
 })
